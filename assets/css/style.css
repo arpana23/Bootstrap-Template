@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    background:linear-gradient(rgba(16, 89, 12,0.8),rgba(48, 107, 47,0.3)),url(../images/banner3.jpg) no-repeat center;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+
+}
+#newLogo{
+    margin-top: 2px;
+    width: 50%;
+    height: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form{
+    background: linear-gradient(rgba(10, 40, 4,0.6),rgba(29, 84, 16,0.6),rgba(80, 249, 42,0.3));
+    border: 2px solid transparent;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+.form-control{
+    background-color: rgba(22, 58, 14,0.3);
+    color: white;
+}
+.form-group>h3{
+    color: white;
+    text-align: center;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background:linear-gradient(rgba(9, 158, 123,0.3),rgba(5, 112, 85,0.6));
+    border: 0px solid transparent;
+    color: white;
+}
+.btn:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: darkgreen;
+}
+
+.myItem{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 15px 5px 10px black;
+    width: 100%;
+    padding: 20px;
+}
+.aa{
+    text-align: center;
+}
+#img1{
+    width: 100%;
+    height:300px;
+    margin-top: 40px;
+}
+.sec1{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.myHeader{
+    text-align: center;
+}
+.myDiv{
+    border-top: 0px;
+    border-right: 2px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: grey;
+    text-align: center;
+}
+.myNewDiv{
+    text-align: center; 
+}
+.well{
+    border-radius: 0px;
+}
+.div3{
+    padding: 20px;
+}
+
+.myItem{
+  display: block;
+
+}
+.footer{
+    background:url(../images/leafBanner.jpeg) no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.quote{
+   color: darkgreen;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px !important;
+}
+
+.fond-body{
+   text-align: center;
+}
+blockquote{
+    border: 0px solid transparent;
+}
+.font-head{
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+        /*carousel-fade transition*/
+
+.carousel-fade >.carousel-inner >.item{
+     transition-property: opacity;
+}
+.item,.active.left,.active.right {
+     opacity: 0;
+}
+.active,.next.left,.prev.right {
+     opacity: 1;
+}
+
+.next,.prev,.active.left,.active.right {
+     left: 0;
+     transform: translate3d(0, 0, 0);
+}
+
+
+.carousel-control {
+     z-index: 2;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators{
+        bottom: 0px;
+        margin-bottom: -20px;
+}
+#fade-quote-carousel.carousel .carousel-indicators>li{
+    background-color: darkgreen;
+    border: none;
+}
+
+/*--------xxx----------*/
+
+   
+
+/*.slide1 .sec2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+box-sizing: border-box;}*/
+
+    
